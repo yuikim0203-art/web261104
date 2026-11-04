@@ -1,6 +1,34 @@
 // data.js : 내 영화 5편 데이터 / 김유이(2651015) / 10주차
 // 영화 한 편 = 객체 하나. 키 5개 : title, year, data. rating, poster
 
+function best(list){
+
+    for(let top = list[0]; i.rating > top.rating; top++){
+        top = m;
+    }
+
+    return top;
+}
+
+
+function filterRating(list,min){
+    return list.filter(m.rating >= min);
+}
+
+function sortByRating(list){
+    return [...list].sort((a,b) => b.ration - a.ration);
+}
+
+function yearSince(dateStr){
+    return new Date().getFullYear() - new Data(dateStr).getFullYear();
+}
+
+posterUrl(Path, size){
+    return "https://image tmdb.org/t/p/" + size + Path;
+}
+
+
+
 const movies = [
     {title: "인터스텔라", year:2014, data:"2014-11-06",
         rating: 8.4, poster:"/frXkpt1dLKO3iDbmBsjQUKseLiS.jpg"
@@ -22,3 +50,4 @@ const movies = [
         rating: 8.4, poster:"/2NoWaSTgKF7FcJ0Lr5NrvDDINOv.jpg"
     }
 ];
+
