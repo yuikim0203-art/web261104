@@ -24,7 +24,7 @@ function yearSince(dateStr){
 }
 
 posterUrl(Path, size){
-    return "https://image tmdb.org/t/p/" + size + Path;
+    return "https://image.tmdb.org/t/p/" + size + Path;
 }
 
 

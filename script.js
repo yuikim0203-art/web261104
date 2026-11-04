@@ -4,10 +4,13 @@
 const titles = ["인터스텔라", "듄 파트1", "듄 파트2", "드래곤 길들이기", "이방인"];
 const ratings = [8.4, 7.9, 9.0, 6.5, 8.1];
 const years = [2014, 2019, 1994, 2023, 2008];
+<<<<<<< HEAD
 
 best(list);
 
 let top = list[0];
+=======
+>>>>>>> refs/rewritten/onto
 
 let sum = 0;
 
