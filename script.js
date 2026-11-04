@@ -5,10 +5,6 @@ const titles = ["인터스텔라", "듄 파트1", "듄 파트2", "드래곤 길�
 const ratings = [8.4, 7.9, 9.0, 6.5, 8.1];
 const years = [2014, 2019, 1994, 2023, 2008];
 
-best(list);
-
-let top = list[0];
-
 let sum = 0;
 
 for (let i = 0; i<ratings.length; i++) {

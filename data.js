@@ -23,8 +23,8 @@ function yearSince(dateStr){
     return new Date().getFullYear() - new Data(dateStr).getFullYear();
 }
 
-posterUrl(Path, size){
-    return "https://image tmdb.org/t/p/" + size + Path;
+function posterUrl(Path, size){
+    return "https://image.tmdb.org/t/p/" + size + Path;
 }
 
 
