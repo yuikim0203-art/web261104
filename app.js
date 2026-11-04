@@ -5,7 +5,7 @@ function average(list) {
 
     let sum = 0;
 
-for (let i = 0; i < list.length; i++) {
+for (let m = 0; m < list.length; m++) {
         sum += m.rating;
     }
 
